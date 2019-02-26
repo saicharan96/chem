@@ -248,6 +248,10 @@ background-color:#DBFFFB !important;
   font-size: 2rem;
     color:#14ba56;
 }
+.footer
+{
+    margin-top:50px;
+}
 .footer p
 {
      font-family: 'Montserrat', sans-serif;
