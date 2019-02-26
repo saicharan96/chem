@@ -101,7 +101,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 .main
 {
    margin: 0!important;
-   height:auto;
+    height:auto;
     background: url(../images/BG-01.jpg) no-repeat center center;
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
