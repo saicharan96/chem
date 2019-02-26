@@ -221,7 +221,7 @@ background-color:#DBFFFB !important;
 
 }
       display: inline-block;
-  font-size: 1em;
+  font-size: 0.5em;
   list-style-type: none;
   padding: 0.5em 1.3em;
     letter-spacing: 0.5px;
@@ -235,7 +235,7 @@ background-color:#DBFFFB !important;
   display: inline-block;
   font-size: 1em;
   list-style-type: none;
-  padding: 0.5em 1.3em;
+  padding: 0.1em 0.5em;
     letter-spacing: 0.5px;
     color:#000000;
     font-weight:bold;
@@ -247,5 +247,12 @@ background-color:#DBFFFB !important;
   display: block;
   font-size: 2rem;
     color:#14ba56;
+}
+.footer p
+{
+     font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    padding:5px 10px;
 }
 }
