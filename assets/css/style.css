@@ -230,10 +230,21 @@ background-color:#DBFFFB;
     background-color:#ffffff;
   text-transform: uppercase;
 }
-
+.main li {
+  display: inline-block;
+  font-size: 1em;
+  list-style-type: none;
+  padding: 0.5em 1.3em;
+    letter-spacing: 0.5px;
+    color:#000000;
+    font-weight:bold;
+    border-radius:12px;
+    background-color:#ffffff;
+  text-transform: uppercase;
+}
 .main li span {
   display: block;
-  font-size: 4.0rem;
+  font-size: 2rem;
     color:#14ba56;
 }
 }
