@@ -78,6 +78,11 @@ body{ font-family: 'ProximaNovaLtLight';}
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+.shape
+{
+    border-radius:15px;
+    background-color:#ffffff;
+}
 .navbar-default{
   transition:500ms ease;
   background-color:transparent !important;
@@ -166,6 +171,11 @@ body{ font-family: 'ProximaNovaLtLight';}
   z-index: 1;
   top: 0;
   left: 0;
+     background: url(../images/BG%20PLAIN-01.jpg) no-repeat center center;
+    -webkit-background-size: cover!important;
+    -moz-background-size: cover!important;
+    -o-background-size: cover!important;
+    background-size: cover!important;
   background-color: #ffffff;
   background-color: rgba(255,255,255, 1.1);
   overflow-y: hidden;
@@ -178,6 +188,7 @@ body{ font-family: 'ProximaNovaLtLight';}
   width: 100%;
   text-align: center;
   margin-top: 30px;
+   
 }
 
 .overlay a {
@@ -199,7 +210,6 @@ body{ font-family: 'ProximaNovaLtLight';}
   position: absolute;
   top: 5px;
   right: 40px;
-    background-color: #ffffff;
     padding:10px;
   font-size: 60px;
 }
