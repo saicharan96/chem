@@ -205,10 +205,10 @@ body{ font-family: 'ProximaNovaLtLight';}
   top: 15px;
   right: 35px;
   }
-    .main
+    .mainbanner
 {
-   margin: 0!important;
-    padding-top:100px;
-   
-}  
+    max-width:600px;
+    width:100%;
+    margin-top:30px;
+}
 }
