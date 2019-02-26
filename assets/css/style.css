@@ -172,7 +172,6 @@ body{ font-family: 'ProximaNovaLtLight';}
   z-index: 1;
   top: 0;
   left: 0;
-     overflow-y:scroll;
      background: url(../images/BG%20PLAIN-01.jpg) no-repeat center center;
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
