@@ -101,7 +101,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 .main
 {
    margin: 0!important;
-    min-height: 120vh!important;
+   height:auto;
     background: url(../images/BG-01.jpg) no-repeat center center;
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
@@ -198,13 +198,13 @@ body{ font-family: 'ProximaNovaLtLight';}
   font-size: 28px;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
-  color: #818181;
+  color: #000000;
   display: block;
   transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: ;
+  color: #ff0000;
 }
 
 .overlay .closebtn {
