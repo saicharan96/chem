@@ -133,7 +133,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 }
 .footer 
 {
-    padding-top:80vh;
+    padding-top:80px;
       font-family: 'Montserrat', sans-serif;
 
 }
@@ -205,4 +205,10 @@ body{ font-family: 'ProximaNovaLtLight';}
   top: 15px;
   right: 35px;
   }
+    .main
+{
+   margin: 0!important;
+    padding-top:100px;
+   
+}  
 }
