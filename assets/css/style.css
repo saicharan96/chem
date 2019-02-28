@@ -138,7 +138,7 @@ a.button {
 .aboutmain
 {
    margin: 0!important;
-    min-height:200vh;
+    min-height:220vh;
     height:100%;
     background: url(../images/BG%20PLAIN-01.jpg) no-repeat center center;
     -webkit-background-size: cover!important;
