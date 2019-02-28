@@ -139,7 +139,10 @@ a.button {
     background-color:#ffffff;
     margin:10px 5px;
 }
-
+.eventspace
+{
+    background-color:#ffffff;
+}
 .navbar-default{
   transition:500ms ease;
   background-color:transparent !important;
@@ -158,9 +161,9 @@ a.button {
 #borderimg2 { 
   border: 10px solid transparent;
   padding: 15px;
-  -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
-  -o-border-image: url(../images/border.png) 30 stretch; /* Opera 11-12.1 */
-  border-image: url(../images/border.png) 30 stretch;
+  -webkit-border-image: url(../images/4.png) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(../images/4.png) 30 round; /* Opera 11-12.1 */
+  border-image: url(../images/4.png) 30 round;
 }
 .navbar-brand span
 {
@@ -191,6 +194,17 @@ a.button {
     background-position: center top;
     background-attachment: fixed;
 }
+.eventmain
+{
+   margin: 0!important;
+    min-height:100vh;
+    height:100%;
+    background: url(../images/pages-05.jpg) no-repeat center center;
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 .footer i
 {
     padding:0px 20px;
@@ -199,7 +213,7 @@ a.button {
 {
     color:#ff0000;
 }
-.aboutmain h3
+.aboutmain h3, .eventmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;
@@ -207,7 +221,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
- .aboutmain h4
+ .aboutmain h4, .eventmain h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -215,7 +229,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
-.aboutmain p
+.aboutmain p, .eventmain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:18px;
@@ -395,6 +409,14 @@ font-weight:bold;
    background-color:#DBFFFB;
 }
     .aboutmain
+{
+   margin: 0!important;
+    min-height:100vh !important;
+    height:100%;
+     background: url(../images/plain-01.jpg) no-repeat center center;
+   background-color:#DBFFFB;
+}
+    .eventmain
 {
    margin: 0!important;
     min-height:100vh !important;
