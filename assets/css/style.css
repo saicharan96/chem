@@ -137,6 +137,7 @@ a.button {
 .shape
 {
     background-color:#ffffff;
+    margin:10px 5px;
 }
 
 .navbar-default{
@@ -184,7 +185,7 @@ a.button {
    margin: 0!important;
     min-height:100vh;
     height:100%;
-    background: url(../images/pages-04.jpg) no-repeat center center;
+    background: url(../images/pages-01.jpg) no-repeat center center;
      background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
@@ -322,14 +323,14 @@ font-weight:bold;
   z-index: 1;
   top: 0;
   left: 0;
-     background: url(../images/BG%20PLAIN-01.jpg) no-repeat center center;
+     background: url(../images/plain-01.jpg) no-repeat center center;
     -webkit-background-size: cover!important;
     -moz-background-size: cover!important;
     -o-background-size: cover!important;
     background-size: cover!important;
   background-color: #ffffff;
   background-color: rgba(255,255,255, 1.1);
-  overflow-y: hidden;
+  overflow-y: scroll;
   transition: 0.5s;
 }
 
