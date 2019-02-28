@@ -370,7 +370,7 @@ font-weight:bold;
     {
         background-color: #dbfffb;
     }
-    .main,.aboutmain
+    .main, .aboutmain
 {
    margin: 0!important;
     min-height:100vh !important;
