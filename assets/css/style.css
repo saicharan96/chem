@@ -86,7 +86,7 @@ body{ font-family: 'ProximaNovaLtLight';}
 
 #status {
   width: 200px;
-  height: 200px;
+  height: 300px;
   position: absolute;
   left: 50%;
   /* centers the loading animation horizontally one the screen */
