@@ -136,7 +136,6 @@ a.button {
 }
 .shape
 {
-    border-radius:15px;
     background-color:#ffffff;
 }
 
@@ -146,6 +145,21 @@ a.button {
     border:none !important;
     min-height:52px !important;
 
+}
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../images/border.png) 30 round; /* Safari 3.1-5 */
+  -o-border-image: url(../images/border.png) 30 round; /* Opera 11-12.1 */
+  border-image: url(../images/border.png) 30 round;
+}
+
+#borderimg2 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  -webkit-border-image: url(../images/border.png) 30 stretch; /* Safari 3.1-5 */
+  -o-border-image: url(../images/border.png) 30 stretch; /* Opera 11-12.1 */
+  border-image: url(../images/border.png) 30 stretch;
 }
 .navbar-brand span
 {
