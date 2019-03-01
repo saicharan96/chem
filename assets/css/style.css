@@ -336,6 +336,10 @@ a.button {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+.collapse
+{
+    padding:10px;
+}
 .button2:hover{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -347,9 +351,13 @@ a.button {
     padding-top:100px;
     
 }
+.toppy
+{
+    margin-top:30px;
+}
 .topper
 {
-    margin-top:50px;
+    margin-top:150px;
 }
 .footer {
     margin-top:100px;
