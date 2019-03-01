@@ -143,6 +143,10 @@ a.button {
 {
     background-color:#ffffff;
 }
+.yellow
+{
+   
+}
 .navbar-default{
   transition:500ms ease;
   background-color:transparent !important;
@@ -164,6 +168,11 @@ a.button {
   -webkit-border-image: url(../images/4.png) 30 round; /* Safari 3.1-5 */
   -o-border-image: url(../images/4.png) 30 round; /* Opera 11-12.1 */
   border-image: url(../images/4.png) 30 round;
+}
+#borderimg3 { 
+  border: 10px solid transparent;
+  padding: 15px;
+    border-image: url(../images/leafborder.png) 20% round;
 }
 .navbar-brand span
 {
@@ -205,6 +214,17 @@ a.button {
     background-position: center top;
     background-attachment: fixed;
 }
+.techmain
+{
+   margin: 0!important;
+    min-height:100vh;
+    height:100%;
+    background: url(../images/pages-02.jpg) no-repeat center center;
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 .footer i
 {
     padding:0px 20px;
@@ -213,7 +233,7 @@ a.button {
 {
     color:#ff0000;
 }
-.aboutmain h3, .eventmain h3
+.aboutmain h3, .eventmain h3, .techmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;
@@ -221,7 +241,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
- .aboutmain h4, .eventmain h4
+ .aboutmain h4, .eventmain h4, .techmain h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -229,7 +249,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
-.aboutmain p, .eventmain p
+.aboutmain p, .eventmain p, .techmain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:18px;
@@ -292,6 +312,25 @@ a.button {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+.button2 {
+  background-color:#7ffb7b;
+  border: none;
+    font-family: 'Josefin Sans', sans-serif;
+  padding: 15px 32px;
+    color:#000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight:700;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button2:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 .button1 {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -300,7 +339,10 @@ a.button {
     padding-top:100px;
     
 }
-
+.topper
+{
+    margin-top:50px;
+}
 .footer {
     margin-top:100px;
   min-height:200px;
@@ -424,6 +466,14 @@ font-weight:bold;
      background: url(../images/plain-01.jpg) no-repeat center center;
    background-color:#DBFFFB;
 }
+     .techmain
+{
+   margin: 0!important;
+    min-height:100vh !important;
+    height:100%;
+     background: url(../images/plain-01.jpg) no-repeat center center;
+   background-color:#DBFFFB;
+}
         .mainbanner
 {
     max-width:1000px;
@@ -447,6 +497,30 @@ font-weight:bold;
      text-transform: uppercase;
 }
     .aboutmain p
+{
+   font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    text-align: left;
+    font-weight:400;
+    line-height:30px;
+}
+     .eventmain h3
+{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight:700;
+     text-transform: uppercase;
+}
+        .eventmain h4
+{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:19px;
+    text-align:left;
+    font-weight:700;
+     text-transform: uppercase;
+}
+    .eventmain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:14px;
