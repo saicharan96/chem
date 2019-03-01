@@ -258,7 +258,14 @@ a.button {
     color:#7a7a7a;
     line-height:40px;
 }
-
+.techmain h4
+{
+    color:#ff4466;
+}
+.techmain span
+{
+    color:#000000;
+}
 .ptags
 {
   font-family: 'Montserrat', sans-serif;
@@ -301,7 +308,7 @@ a.button {
   background-color:#FF5400 ;
   border: none;
     font-family: 'Josefin Sans', sans-serif;
-  padding: 15px 32px;
+  padding: 10px 30px;
     color:#ffffff;
   text-align: center;
   text-decoration: none;
@@ -312,11 +319,12 @@ a.button {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
+
 .button2 {
   background-color:#7ffb7b;
   border: none;
     font-family: 'Josefin Sans', sans-serif;
-  padding: 15px 32px;
+  padding: 10px 30px;
     color:#000000;
   text-align: center;
   text-decoration: none;
@@ -528,6 +536,34 @@ font-weight:bold;
     font-weight:400;
     line-height:30px;
 }
+     .techmain h3
+{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight:700;
+     text-transform: uppercase;
+}
+        .techmain h4
+{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:19px;
+    text-align:left;
+    font-weight:700;
+     text-transform: uppercase;
+}
+    .techmain p
+{
+   font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    text-align: left;
+    font-weight:400;
+    line-height:30px;
+}
+    .span>p>span
+    {
+        color:#000000;
+    }
     .navit{
 background-color:#DBFFFB !important;
 
