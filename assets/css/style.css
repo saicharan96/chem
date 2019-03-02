@@ -291,6 +291,17 @@ a.button {
     background-position: center top;
     background-attachment: fixed;
 }
+.team h5 span
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:18px;
+  font-weight:700;
+}
+.team h5
+{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:700;
+}
 .footer i
 {
     padding:0px 20px;
