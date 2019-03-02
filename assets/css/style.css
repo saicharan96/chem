@@ -244,7 +244,18 @@ a.button {
    margin: 0!important;
     min-height:100vh;
     height:100%;
-    background: url(../images/tech3.jpg) no-repeat center center;
+    background: url(../images/tech2.jpg) no-repeat center center;
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
+.nontechmain
+{
+   margin: 0!important;
+    min-height:100vh;
+    height:100%;
+    background: url(../images/nontech1.jpg) no-repeat center center;
      background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
@@ -258,7 +269,7 @@ a.button {
 {
     color:#ff0000;
 }
-.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3
+.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;
@@ -266,7 +277,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
- .aboutmain h4, .eventmain h4, .techmain h4, .ontechmain h4
+ .aboutmain h4, .eventmain h4, .techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -274,7 +285,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
-.aboutmain p, .eventmain p, .techmain p, .ontechmain p
+.aboutmain p, .eventmain p, .techmain p, .ontechmain p, .nontechmain p, .nontechonmain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:18px;
@@ -283,11 +294,11 @@ a.button {
     color:#7a7a7a;
     line-height:40px;
 }
-.techmain h4
+.techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4
 {
     color:#ff4466;
 }
-.techmain span
+.techmain span, .ontechmain span, .nontechmain span, .nontechonmain span
 {
     color:#000000;
 }
@@ -512,6 +523,38 @@ font-weight:bold;
    background-color:#DBFFFB;
 }
      .techmain
+{
+   margin: 0!important;
+    min-height:100vh !important;
+    height:100%;
+     background: url(../images/plain-01.jpg) no-repeat center center;
+   background-color:#DBFFFB;
+}
+  .techmain
+{
+   margin: 0!important;
+    min-height:100vh !important;
+    height:100%;
+     background: url(../images/plain-01.jpg) no-repeat center center;
+   background-color:#DBFFFB;
+}
+.ontechmain
+{
+   margin: 0!important;
+    min-height:100vh !important;
+    height:100%;
+     background: url(../images/plain-01.jpg) no-repeat center center;
+   background-color:#DBFFFB;
+}
+.nontechmain
+{
+   margin: 0!important;
+    min-height:100vh !important;
+    height:100%;
+     background: url(../images/plain-01.jpg) no-repeat center center;
+   background-color:#DBFFFB;
+}
+.nontechonmain
 {
    margin: 0!important;
     min-height:100vh !important;
