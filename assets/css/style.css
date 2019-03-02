@@ -28,7 +28,8 @@ body{ font-family: 'ProximaNovaLtLight';}
 
 /*nav icons*/
 .navbar-fixed-top.scrolled {
-  background-color: #DBFFFB !important;
+  background-color: #dbfffb !important;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: background-color 200ms linear;
 }
 .navbar-fixed-top
