@@ -159,6 +159,15 @@ a.button {
     max-width:150px;
     width:100%;
 }
+.white
+{
+  background-color: #f5f5f5;
+}
+.imge1
+{
+    max-width:30px;
+    width:100%;
+}
 .imager
 {
   max-width:200px;
