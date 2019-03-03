@@ -190,14 +190,21 @@
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
   <script>
-   function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: 13.0078535, lng: 80.236650},
-    zoom: 18,
-    mapTypeId: 'satellite'
-  });
-  map.setTilt(45);
-}
+  
+function initMap() {
+        var myLatLng = {lat: 13.0078535, lng: 80.236650};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Alagappa College of Technology'
+        });
+      }
     </script>
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgJNbx7wr01p7h2a0psOsVieTc7Ge1LB8&libraries=places&callback=initMap"
         async defer></script>
