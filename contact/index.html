@@ -128,41 +128,29 @@
 
         </div>
     </nav>
-    <section class="routemain">
+    <section class="contactmain">
         <div class="container top">
-            <div class="row">
-                <div class="col-md-9 card eventspace" id="borderimg1">
+               <h3>Contact Us</h3>
+                           <div class="row">
+
+                <div class="col-md-10 card eventspace" id="borderimg1">
                     <center>
-                        <h3>Popular Routes</h3>
-                        <br><br>
-                        <h4>Alagappa College of Technology</h4>
-                        <p>Anna University, Sardar Patel Road, Anna University, Guindy, Chennai, Tamil Nadu 600025</p>
-                        <br><br>
-                        <div class="row">
-                            <div class="col-md-6"> <h4>Train Routes</h4><p> 1. Guindy (beach - tambaram) 
-Buses from guindy to ACT - 49, 21G,  54F get down in CLRI/Cancer Institute stop </p>
-<p> 2. Kasturba nagar (beach - velachery) 
-From kasturba nagar a walkable distance of 1 km or take any bus and get down in Anna university(next stop) bus stop </p>
-</div>
-                            <div class="col-md-6"><img class="imaging" src="../assets/images/train1.png"></div>
-                        </div><br><br><hr><br><br>
-                              <div class="row">
-                                  <div class="col-md-5"><img class="imaging" src="../assets/images/bus.png"></div>
-                            <div class="col-md-7"> <h4>Bus Routes</h4><p> 1. Tambaram - CLRI - 21G (freq 20 mins) </p>
-<p>2. Central - CLRI/cancer institute - 5C (freq 30 mins) </p>
-<p> 3. Chennai Egmore - CLRI - 23C (freq 25 mins)</p>
-</div>
-                          
-                        </div><br><br><hr><br><br>
+                      
+                        <div id="map"></div><br><br>
+                         <h4>co ordinator</h4>
+
+                         <br>
                          <div class="row">
-                                 
-                            <div class="col-md-6"> <h4>Cab Routes</h4><p> 1. From tambaram -Rs 200 to Rs 250 </p>
-<p> From egmore - Rs 150 to Rs 200 </p>
-<p>From central - Rs 200 to Rs 250</p>
-<p>Ola and uber cabs charges extra during peak hours</p>
-</div>
-                 <div class="col-md-6"><img class="imaging" src="../assets/images/taxi.png"></div>          
-                        </div>
+                            <div class="col-md-6">
+                         <p>1) SHANKARA BALAN – 94448 25499</p>
+                         <p>2) RUPAN KUMAR – 97911 86516</p>
+                         <p>3) JEBIN JOSHUA MOSES – 89038 32168</p>
+                        
+                     </div>
+                      <div class="col-md-6"> <p>4) MOHAMMED SULAIMAN – 78069 76789</p>
+                         <p>5) KAILESH SAKTHIVEL - 76396 33897</p>
+                         <p>6) GAYATHRI KALYANARAMAN – 97911 02730</p></div>
+                     </div>
                     </center>
                 </div>
             </div>
@@ -201,7 +189,18 @@ From kasturba nagar a walkable distance of 1 km or take any bus and get down in 
         <a href="https://twitter.com/Chemfluence?s=09" class="twitter" target="_blank"><i class="fa fa-twitter"></i></a> 
           <a href="https://instagram.com/chemfluence" class="google" target="_blank">  <i class="fa fa-instagram" style="font-size:24px"></i></a>
     </div>
-
+  <script>
+   function initMap() {
+  var map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 13.0078535, lng: 80.236650},
+    zoom: 18,
+    mapTypeId: 'satellite'
+  });
+  map.setTilt(45);
+}
+    </script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgJNbx7wr01p7h2a0psOsVieTc7Ge1LB8&libraries=places&callback=initMap"
+        async defer></script>
 </body>
 
 </html>
