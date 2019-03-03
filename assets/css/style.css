@@ -194,6 +194,11 @@ a.button {
   max-width:200px;
     width:100%;
 }
+.imaging
+{
+  max-width:400px; 
+  width:100%;
+}
 .footer i
 {
    color:#898989;
@@ -846,6 +851,14 @@ padding-left:90px;
     font-weight:700;
      text-transform: uppercase;
 }
+.techmain p
+{
+   font-family: 'Montserrat', sans-serif;
+    font-size:14px;
+    text-align: left;
+    font-weight:400;
+    line-height:30px;
+}
   .nontechonmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
@@ -878,18 +891,34 @@ padding-left:90px;
     font-weight:700;
      text-transform: uppercase;
 }
-    .techmain p
-{
-   font-family: 'Montserrat', sans-serif;
-    font-size:14px;
-    text-align: left;
-    font-weight:400;
-    line-height:30px;
-}
 .timeline p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:12px;
+    text-align: left;
+    font-weight:400;
+    line-height:30px;
+}
+ .routemain h3
+{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    text-align: center;
+    font-weight:700;
+     text-transform: uppercase;
+}
+        .routemain h4
+{
+   font-family: 'Josefin Sans', sans-serif;
+    font-size:19px;
+    text-align:left;
+    font-weight:700;
+     text-transform: uppercase;
+}
+.routemain p
+{
+   font-family: 'Montserrat', sans-serif;
+    font-size:14px;
     text-align: left;
     font-weight:400;
     line-height:30px;
