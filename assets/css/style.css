@@ -343,6 +343,17 @@ a.button {
     background-position: center top;
     background-attachment: fixed;
 }
+.routemain
+{
+   margin: 0!important;
+    min-height:100vh;
+    height:100%;
+    background: url(../images/plain-01.jpg) no-repeat center center;
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 .team h5 span
 {
   font-family: 'Josefin Sans', sans-serif;
@@ -374,7 +385,7 @@ a.button {
     text-align:center; 
     font-weight:700;
 }
-.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3
+.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .routemain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;
@@ -382,7 +393,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
- .aboutmain h4, .eventmain h4, .techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4
+ .aboutmain h4, .eventmain h4, .techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4, .routemain h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -390,7 +401,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
-.aboutmain p, .eventmain p, .techmain p, .ontechmain p, .nontechmain p, .nontechonmain p, .team p, .timelinemain p, .regmain p
+.aboutmain p, .eventmain p, .techmain p, .ontechmain p, .nontechmain p, .nontechonmain p, .team p, .timelinemain p, .regmain p, .routemain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:18px;
@@ -399,11 +410,11 @@ a.button {
     color:#7a7a7a;
     line-height:40px;
 }
-.techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4
+.techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4, .routemain h4
 {
     color:#ff4466;
 }
-.techmain span, .ontechmain span, .nontechmain span, .nontechonmain span, .team span, .timelinemain p, .regmain p
+.techmain span, .ontechmain span, .nontechmain span, .nontechonmain span, .team span, .timelinemain span, .regmain span, .routemain span
 {
     color:#000000;
 }
