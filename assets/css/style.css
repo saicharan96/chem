@@ -385,6 +385,17 @@ a.button {
     background-position: center top;
     background-attachment: fixed;
 }
+.workmain
+{
+   margin: 0!important;
+    min-height:100vh;
+    height:100%;
+    background: url(../images/pages-04.jpg) no-repeat center center;
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 .team h5 span
 {
   font-family: 'Josefin Sans', sans-serif;
@@ -416,7 +427,7 @@ a.button {
     text-align:center; 
     font-weight:700;
 }
-.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .routemain h3, .loginmain h3, .contactmain h3
+.aboutmain h3, .eventmain h3, .techmain h3, .ontechmain h3, .nontechmain h3, .nontechonmain h3, .team h3, .timelinemain h3, .regmain h3, .routemain h3, .loginmain h3, .contactmain h3, .workmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:30px;
@@ -424,7 +435,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
- .aboutmain h4, .eventmain h4, .techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4, .routemain h4, .loginmain h4, .contactmain h4
+ .aboutmain h4, .eventmain h4, .techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4, .routemain h4, .loginmain h4, .contactmain h4,.workmain h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -432,7 +443,7 @@ a.button {
     font-weight:700;
      text-transform: uppercase;
 }
-.aboutmain p, .eventmain p, .techmain p, .ontechmain p, .nontechmain p, .nontechonmain p, .team p, .timelinemain p, .regmain p, .routemain p, .loginmain p, .contactmain p
+.aboutmain p, .eventmain p, .techmain p, .ontechmain p, .nontechmain p, .nontechonmain p, .team p, .timelinemain p, .regmain p, .routemain p, .loginmain p, .contactmain p,.workmain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:18px;
@@ -441,11 +452,11 @@ a.button {
     color:#7a7a7a;
     line-height:40px;
 }
-.techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4, .routemain h4, .contactmain h4
+.techmain h4, .ontechmain h4, .nontechmain h4, .nontechonmain h4, .team h4, .timelinemain h4, .regmain h4, .routemain h4, .contactmain h4, .workmain h4
 {
     color:#ff4466;
 }
-.techmain span, .ontechmain span, .nontechmain span, .nontechonmain span, .team span, .timelinemain span, .regmain span, .routemain span, .contactmain span
+.techmain span, .ontechmain span, .nontechmain span, .nontechonmain span, .team span, .timelinemain span, .regmain span, .routemain span, .contactmain span, .workmain span
 {
     color:#000000;
 }
@@ -826,7 +837,7 @@ padding-left:90px;
     font-weight:400;
     line-height:30px;
 }
-     .eventmain h3
+     .eventmain h3, .workmain h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:20px;
@@ -834,7 +845,7 @@ padding-left:90px;
     font-weight:700;
      text-transform: uppercase;
 }
-        .eventmain h4
+        .eventmain h4, .workmain h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -842,7 +853,7 @@ padding-left:90px;
     font-weight:700;
      text-transform: uppercase;
 }
-    .eventmain p
+    .eventmain p, .workmain p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:14px;
