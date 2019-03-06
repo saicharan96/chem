@@ -1,3 +1,30 @@
+
+<?php
+session_start();
+if(isset($_POST['login']))
+{
+$conn=mysqli_connect('localhost','u148781541_chemf','Chemfluence2019','u148781541_stud');
+$id = $_POST['email'];
+$pass = $_POST['password'];
+$sql="select id from students where (email= '$id' OR number= '$id') AND pass= '$pass'";
+$res=mysqli_query($conn,$sql);
+$count=mysqli_num_rows($res);
+if($count>0)
+{
+  $desturl=$_SESSION['redirect'];
+  $_SESSION['redirect']='/index.php';
+  $row=mysqli_fetch_array($res);
+  $_SESSION['id']=$row['id'];
+  header('location: '.$desturl);
+}
+else {
+  echo "<script type='text/javascript'> alert('Invalid Credentials'); </script>";
+}
+mysqli_close($conn);
+}
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
