@@ -45,7 +45,7 @@ mysqli_close($conn);
 
 <body>
     <div id="preloader">
-        <div id="status">&nbsp;</div>
+        <div id="status">&nbsp;</div >
     </div>
 
     <nav class="navbar navbar-default navbar-fixed-top">
