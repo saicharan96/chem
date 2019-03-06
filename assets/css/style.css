@@ -859,7 +859,7 @@ padding-left:90px;
     font-weight:400;
     line-height:30px;
 }
-     .eventmain h3, .workmain h3, .accomain h3, .sponmain h3
+     .eventmain h3, .workmain h3, .accomain h3, .sponmain h3, .ontech h3
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:20px;
@@ -867,7 +867,7 @@ padding-left:90px;
     font-weight:700;
      text-transform: uppercase;
 }
-        .eventmain h4, .workmain h4,.accomain h4, .sponmain h4
+        .eventmain h4, .workmain h4,.accomain h4, .sponmain h4, .ontech h4
 {
    font-family: 'Josefin Sans', sans-serif;
     font-size:19px;
@@ -875,7 +875,7 @@ padding-left:90px;
     font-weight:700;
      text-transform: uppercase;
 }
-    .eventmain p, .workmain p, .accomain p, .sponmain p
+    .eventmain p, .workmain p, .accomain p, .sponmain p, .ontech p
 {
    font-family: 'Montserrat', sans-serif;
     font-size:14px;
