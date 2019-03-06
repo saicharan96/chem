@@ -179,7 +179,7 @@ mysqli_close($conn);
               <div class="form-group">
       <input type="password" class="controls" placeholder="Set a Password" name="pass" required="">
     </div>
-                    <center><button name="reg" class="button">Register</button></center>
+                    <center><a href="/PaytmKit/TxnTest.php"><button name="reg" class="button">Register</button></a></center>
   </form>
                     </center>
                 </div>
